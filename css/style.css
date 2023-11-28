@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+}
+
+.modelBox{
+    border: black;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+}
+
+.label{
+    padding: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+model-viewer{
+    height: inherit;
+    width: inherit;
+}
+
+li{
+    list-style-type: none;
+}
+
+nav{
+    background-color: antiquewhite;
+    padding: 10px;
+
+}
