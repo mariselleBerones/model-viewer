@@ -5,7 +5,10 @@
 .modelBox{
     height: 300px;
     width: 300px;
-    padding: 30px;
+    padding: 10px;
+    margin: 10px;
+
+    background-color: black;
 }
 
 .modelBoxHighlight{
@@ -18,6 +21,13 @@
     padding: 10px;
     background-color: antiquewhite;
     text-align: center;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 
