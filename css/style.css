@@ -12,9 +12,13 @@
 }
 
 .modelBoxHighlight{
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
     padding: 30px;
+    background-color: pink;
+
+    display: flex;
+    flex-direction: row;
 }
 
 .label{
@@ -34,6 +38,11 @@
 model-viewer{
     height: inherit;
     width: inherit;
+}
+
+.highlighLabel{
+    padding: 20px;
+    width:900px;
 }
 
 li{
