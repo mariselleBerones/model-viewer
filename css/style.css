@@ -3,9 +3,14 @@
 }
 
 .modelBox{
-    border: black;
     height: 300px;
     width: 300px;
+    padding: 30px;
+}
+
+.modelBoxHighlight{
+    height: 600px;
+    width: 600px;
     padding: 30px;
 }
 
@@ -14,6 +19,7 @@
     background-color: antiquewhite;
     text-align: center;
 }
+
 
 model-viewer{
     height: inherit;
